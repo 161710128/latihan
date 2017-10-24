@@ -8,11 +8,11 @@ class identitas {
  public $stt;
 
 
- public function __construct ($nama,$tempatlahir,$kelas,$status){
- $this->nm =$nama;
- $this->tl =$tempatlahir;
- $this->kls =$kelas;
- $this->stt =$status;
+ public function __construct ($nm,$tl,$kls,$stt){
+ $this->nm =$nm;
+ $this->tl =$tl;
+ $this->kls =$kls;
+ $this->stt =$stt;
 
  }
 public function get_nama (){

@@ -1,10 +1,10 @@
 <?php
 require_once 'index.php';
 
-$identitas2 = new identitas ("opik","bandung","xirpl-2","jomblo");
-$identitas3 = new identitas ("rudi","bandung","xirpl-2","jomblo");
+$identitas2 = new identitas ("o","bandung","xirpl-2","jomblo");
+$identitas3 = new identitas ("r","bandung","xirpl-2","jomblo");
 $identitas4 = new identitas ("ulul","bandung","xirpl-2","jomblo");
-$identitas5 = new identitas ("irfan","bandung","xirpl-2","jomblo"); 
+$identitas5 = new identitas ("in","bandung","xirpl-2","jomblo"); 
 
 echo "nama        :".$identitas2->get_nama ()."<br>";
 echo "lahir di        :".$identitas2->get_tempatlahir ()."<br>";
