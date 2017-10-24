@@ -2,30 +2,30 @@
 
 class identitas {
 
- public $nama;
- public $tempatlahir;
- public $kelas;
- public $status;
+ public $nm;
+ public $tl;
+ public $kls;
+ public $stt;
 
 
  public function __construct ($nama,$tempatlahir,$kelas,$status){
- $this->nama =$nama;
- $this->tempatlahir =$tempatlahir;
- $this->kelas =$kelas;
- $this->status =$status;
+ $this->nm =$nama;
+ $this->tl =$tempatlahir;
+ $this->kls =$kelas;
+ $this->stt =$status;
 
  }
 public function get_nama (){
- 	return $this->nama;
+ 	return $this->nm;
  }
  public function get_tempatlahir (){
- 	return $this->tempatlahir;
+ 	return $this->tl;
  }
  public function get_kelas (){
- 	return $this->kelas;
+ 	return $this->kls;
  }
  public function get_status (){
- 	return $this->status;
+ 	return $this->stt;
  }
  
 }
